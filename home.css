@@ -1,0 +1,248 @@
+*{
+    border: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e3e6e6;
+    /* display: flex;
+    flex-direction: column; */
+}
+a{
+    text-decoration: none;
+}
+.space{
+    height: 65px;
+}
+
+/**Navigation Bar**/
+.navbar{
+    background-color: #131921;
+    height: 50px;
+    width: 100%;
+    padding: 8px 10px;
+    /* position: fixed; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* gap: 20px; */
+    position: fixed;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.navbar a{
+    color: beige;
+}
+.fa-location-dot{
+    color: white;
+}
+.del{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.search{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 525px;
+}
+.search-select{
+    width: 51px;
+    color: #0F1111;
+    border: 0;
+    background-color: #e6e6e6;
+    font-size: 0.85rem;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.search-icon{
+    background-color: #febd69;
+    height: 40px;
+    width: 45px;
+    /* position: relative; */
+    /* float: right; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #0F1111;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.search input{
+    width: 100%;
+    font-size: 1rem;
+    border: 0;
+}
+.search:hover{
+    border: 2px solid #febd69;
+    border-radius: 6px;
+}
+.p1{
+    font-size: 13px;
+    line-height: 0px;
+}
+.p2{
+    font-size: 15px;
+    line-height: 0px;
+    font-weight: bold;
+}
+.area{
+    font-size: 0.8rem;
+    line-height: 15px;
+}
+.nav-cart i{
+    font-size: 30px;
+}
+
+/**NavBar2**/
+.nav2{
+    background-color: #232f3e;
+    height: 30px;
+    width: 100%;
+    padding: 8px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* position: relative;
+    top: 55px; */
+}
+.nleft{
+    float: left;
+    display: flex;
+    gap: 10px;
+}
+.nright{
+    float: right;
+}
+.nleft a, .nright a{
+    color: white;
+    font-size: 14.5px;
+}
+
+/**Body**/
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.hero{
+    height: 300px;
+    background-image: url("hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center center; */
+    /* position: relative; */
+    box-shadow: rgba(240,208,69) 0px 150px 150px 0px;
+}
+.row1{
+    display: flex;
+    gap: 20px;
+    position: static;
+    margin: 0px 30px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    height: 400px;
+    width: 250px;
+    /* border: 1px solid black; */
+    padding: 0px 20px 10px 20px;
+    background-color: white;
+}
+.lrow{
+    margin-bottom: 10px;
+}
+.lrow1{
+    margin-bottom: 20px;
+}
+.brow{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-weight: 600;
+    font-size: 22px;
+}
+.desc{
+    font-size: 12px;
+    /* display: block;
+    overflow: hidden; */
+}
+
+/**Footer**/
+/**Panel1**/
+.back{
+    height: 50px;
+    width: 100%;
+    /* padding: 10px 0px; */
+    background-color: #37475a;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot{
+    height: 260px;
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #232f3e;
+    color: white;
+}
+.box2{
+    /* padding: 0px 0px; */
+    display: flex;
+    justify-content: space-evenly;
+    height: 210px;
+    /* gap: 70px; */
+}
+.t1{
+    font-size: 16px;
+    font-weight: 600;
+}
+.t2{
+    font-size: 13px;
+    color: #dddddd;
+}
+
+/**Panel2**/
+.panel2{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.5px solid #dddddd;
+}
+
+/**Panel3**/
+.copy{
+    height: 70px;
+    background-color: #131a22;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #dddddd;
+}
+
+.copy-1{
+    display: flex;
+    gap: 10px;
+}
